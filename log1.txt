@@ -1,0 +1,2 @@
+2023-03-15 09:48:16,201 - root [INFO] - Using https://mainnet.infura.io
+2023-03-15 09:48:37,325 - root [INFO] - Using https://mainnet.infura.io
