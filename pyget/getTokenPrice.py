@@ -11,12 +11,12 @@ def getHtmlList(url):
         r = requests.get(url, headers = headers, timeout = 30)
         r.raise_for_status()
         r.encoding = r.apparent_encoding
-        return r.text
+        return r.textpip
     except:
         print("1")
     
 res=getHtmlList('https://poocoin.app/tokens/0x768a62a22b187eb350637e720ebc552d905c0331')
 print(res)
-soup = BeautifulSoup(res, 'html.parser')
-title = soup.title.text 
-print(title)
+# soup = BeautifulSoup(res, 'html.parser')
+# title = soup.title.text 
+# print(title)
